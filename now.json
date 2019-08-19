@@ -9,5 +9,8 @@
   },
   "github": { "autoAlias": true, "enabled": true },
   "public": true,
-  "regions": ["all"]
+  "regions": ["all"],
+  "routes": [
+    { "src": "/.*", "headers": { "Access-Control-Allow-Origin": "*" } }
+  ]
 }
